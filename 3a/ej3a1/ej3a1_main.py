@@ -47,8 +47,25 @@ Exemple:
 
 """
 
+def add(num_1, num_2):
+    return num_1 + num_2
+
+
+def subtract(num_1, num_2):
+    return num_1 - num_2
+
+
+def multiply(num_1, num_2):
+    return num_1 * num_2
+
+
+def divide(num_1, num_2):
+    return num_1 / num_2
+
 import ej3a1_operations
-print(ej3a1_operations.add(3, 4))
-print(ej3a1_operations.subtract(10, 5))
-print(ej3a1_operations.multiply(3, 4))
-print(ej3a1_operations.divide(10, 5))
+
+
+print(ej3a1_operations.add(100, 575))
+print(ej3a1_operations.subtract(15, 461))
+print(ej3a1_operations.multiply(13, 97))
+print(ej3a1_operations.divide(54, 12))
