@@ -1,2 +1,3 @@
-# write import for convert_date_format
-# write import for date_operations
+# Importem els mòduls del paquet
+from . import convert_date_format
+from . import date_operations
