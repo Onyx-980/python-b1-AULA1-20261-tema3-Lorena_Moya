@@ -73,8 +73,12 @@ Exemple:
 from ej3a2_math_package import geometry, arithmetic
 
 # Arithmetic operations
-print(arithmetic.power(5, 3))
-print(arithmetic.square_root(16))
+
+
+math_power_result = arithmetic.power(5, 3)
+math_square_root_result = arithmetic.square_root(16)
+print(math_power_result)
+print(math_square_root_result)
 
 # Geometric operations
 square_area_result = geometry.square_area(5)
@@ -84,7 +88,7 @@ circle_area_result = geometry.circle_area(5)
 
 # Si quieres probar tu código, descomenta las siguientes líneas y ejecuta el script
 # Si vols provar el teu codi, descomenta les línies següents i executa l'script
-#print(square_area_result)
-#print(rectangle_area_result)
-#print(triangle_area_result)
-#print(circle_area_result)
+print(square_area_result)
+print(rectangle_area_result)
+print(triangle_area_result)
+print(circle_area_result)
